@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   *{
+      overflow-x: hidden;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+.foot{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #f8e8e7;
+    margin: 20px auto 0 auto;
+    width: 96vw;
+    font-size: 1em;
+}
+.fh1{
+  font-size: 1.5em;
+}
+.footer{
+    display: block;
+    padding: 30px;
+}
+.ftext, .ftext2{
+    color: #B2BEB5;
+}
+.copy{
+    border-top: 2px solid #1e1e1e;
+    background-color: #f8e8e7;
+    width: 96vw;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.mail{
+  text-decoration: none;
+  color: #B2BEB5;
+}
+.fimage{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    filter: brightness(90%);
+  }
+@media screen and (max-width:1320px) {
+  .fh1{
+  font-size: 1.1em;
+}
+}
+@media screen and (max-width:1000px) {
+  .foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .fh1{
+    font-size: 2em;
+  }
+  .ftext{
+    font-size: 1.5em;
+    margin-left: 65%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  .ftext2{
+    font-size: 1.5em;
+    margin-left: 75%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  .footer{
+    padding: 0 50px;
+  }
+  .copy{
+    width: 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <footer>
+    <div class="foot">
+    <div class="footer">
+      <h1 class="fh1">Our Company</h1>
+      <p class="ftext">Team</p>
+      <p class="ftext">Privacy and Terms</p>
+      <p class="ftext">Vision</p>
+      <p class="ftext">Located Officies</p>
+      <p class="ftext">Careers</p>
+    </div>
+    <div class="footer">
+      <h1 class="fh1">Get to know us</h1>
+      <p class="ftext">Career</p>
+      <p class="ftext">Privacy and Terms</p>
+      <p class="ftext">Mission</p>
+      <p class="ftext">Located Officies</p>
+      <p class="ftext">Tobless</p>
+    </div>
+    <div class="footer">
+      <h1 class="fh1">Get in touch</h1>
+      <p class="ftext">Customer Support</p>
+      <p class="ftext">Your Order</p>
+      <p class="ftext">Shipping</p>
+      <p class="ftext">Manage your content</p>
+      <p class="ftext">Goods enquiry</p>
+    </div>
+    <div class="footer">
+      <h1 class="fh1">Contact Us</h1>
+      <p class="ftext2">
+        <a href="mailto:obayomitaofeek7@gmail.com" class="mail">TobXJay</a>
+      </p>
+      <p class="ftext2">
+        <img src="images/whatsapp.png" alt="whatsapp" class="fimage">07048578739
+      </p>
+      <p class="ftext2"><img src="images/facebook.jpg" alt="facebook" class="fimage"> Tobless-yanju</p>
+      <p class="ftext2"><img src="images/github.png" alt="Github" class="fimage">Tobless-scripts</p>
+      <p class="ftext2">tobXjay</p>
+    </div>
+    </div>
+    <div class="copy">&copy Copyright 2024. All Rights Reserved</div>
+    </footer>
+</body>
+</html>
